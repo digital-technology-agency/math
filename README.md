@@ -17,12 +17,19 @@ Let there be **n** different objects. To find the number of combinations of **n*
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/digital-technology-agency/math?style=flat)](https://github.com/digital-technology-agency/math/issues?q=is%3Aissue+is%3Aclosed)
 
 
-# Usage
+## Usage
 ### [golang/cmd/go](https://golang.org/cmd/go/)
 
 ```bash
 go get github.com/digital-technology-agency/math
 ```
+
+## Test
+
+```bash
+go test -run ''
+```
+
 
 ## Quickstart
 
@@ -41,6 +48,45 @@ func Example() {
 }
 ```
 
+## Run in Terminal
+
+* Go to main page and click **Releases**
+
+![Card information](./pic/cli-1.png)
+
+* Choose a version for your operating system and click the link
+
+![Card information](./pic/cli-2.png)
+
+* Download and unzip the **math** file
+
+![Card information](./pic/cli-3.png)
+![Card information](./pic/cli-4.png)
+
+* Open terminal in unzip folder
+ 
+![Card information](./pic/cli-5.png)
+
+* Run unzip binary file  **math**
+
+```bash
+ ./math
+```
+
+![Card information](./pic/cli-6.png)
+
+* Comand argument list 
+
+```bash
+ ./math -h
+```
+
+![Card information](./pic/cli-7.png)
+
+* Set arguments
+```bash
+ ./math -n=10000 -k=10
+```
 
 ## Contributing
 Pull requests and Github issues are welcome.  Please read our [contributing guide](./CONTRIBUTING.md) for more information.
