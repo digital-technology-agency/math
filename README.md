@@ -20,6 +20,10 @@ Let there be **n** different objects. To find the number of combinations of **n*
 
 The factorial operation is encountered in many areas of mathematics, notably in combinatorics, algebra, and mathematical analysis. Its most basic use counts the possible distinct sequences – the permutations – of **n** distinct objects: there are **n!**.
 
+### Permutations (n)
+
+### _**Pn** = **n!**_
+
 
 ### Issues
 [![GitHub issues](https://img.shields.io/github/issues/digital-technology-agency/math?color=0A0ECD)](https://github.com/digital-technology-agency/math/issues?q=is%3Aopen+is%3Aissue)
@@ -68,6 +72,22 @@ import "github.com/digital-technology-agency/math"
 func Example() {
     n := 4
     value := math.FactorialInt(n)
+	fmt.Printf("Result: %d", value)
+    /*
+        Result: 24    
+    */ 
+}
+```
+
+**Permutations (n)**
+
+```go
+
+import "github.com/digital-technology-agency/math"
+
+func Example() {
+    n := 4
+    value := math.PermutationsInt(n)
 	fmt.Printf("Result: %d", value)
     /*
         Result: 24    

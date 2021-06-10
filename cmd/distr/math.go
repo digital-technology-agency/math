@@ -13,7 +13,7 @@ func Int64(input string) int64 {
 }
 
 func main() {
-	typeValue := flag.String(`t`, "", "cnk\nfactorial\n")
+	typeValue := flag.String(`t`, "", "cnk\nfactorial\npermutations\n")
 	n := flag.String(`n`, "5", ``)
 	k := flag.String(`k`, "2", ``)
 	flag.Parse()
@@ -30,5 +30,9 @@ func main() {
 		log.Printf(`Params N=%s `, *n)
 		log.Printf(`Int64 [%v]`, math.FactorialInt(Int64(*n)))
 		log.Printf(`String [%s]`, math.FactorialString(Int64(*n)))
+	case `permutations`:
+		log.Printf(`Params N=%s `, *n)
+		log.Printf(`Int64 [%v]`, math.PermutationsInt(Int64(*n)))
+		log.Printf(`String [%s]`, math.PermutationStr(Int64(*n)))
 	}
 }

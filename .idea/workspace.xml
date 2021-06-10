@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b82e9dd-1613-4d61-85d3-defaa6d2a9fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/permutations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/permutation.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/distr/math.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/distr/math.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,11 +105,11 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestFactorial in github.com/digital-technology-agency/math">
+  <component name="RunManager" selected="Go Build.go build github.com/digital-technology-agency/math/cmd/distr">
     <configuration name="go build github.com/digital-technology-agency/math/cmd/distr" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="math" />
       <working_directory value="$PROJECT_DIR$" />
-      <parameters value="-t factorial -n 100" />
+      <parameters value="-t permutations -n 100" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/cmd/distr/math.go" />
       <package value="github.com/digital-technology-agency/math/cmd/distr" />
@@ -154,8 +157,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestFactorial in github.com/digital-technology-agency/math" />
         <item itemvalue="Go Build.go build github.com/digital-technology-agency/math/cmd/distr" />
+        <item itemvalue="Go Test.TestFactorial in github.com/digital-technology-agency/math" />
         <item itemvalue="Go Test.TestCnkUint in github.com/digital-technology-agency/math" />
         <item itemvalue="Go Test.TestCnkStr in github.com/digital-technology-agency/math" />
       </list>
@@ -187,7 +190,7 @@
       <workItem from="1623308078006" duration="9000" />
       <workItem from="1623315758810" duration="10364000" />
       <workItem from="1623330511754" duration="3346000" />
-      <workItem from="1623333863438" duration="602000" />
+      <workItem from="1623333863438" duration="2355000" />
     </task>
     <task id="LOCAL-00001" summary="imnit">
       <created>1623307775155</created>
@@ -329,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623334449347</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="factorial">
+      <created>1623334472070</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1623334472070</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,35 +365,35 @@
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
     <state x="555" y="197" width="800" height="684" key="#Go_Modules_(vgo)/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623304905471" />
-    <state x="2338" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623333972843">
+    <state x="2338" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623335899404">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2338" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623333972843" />
-    <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2" timestamp="1623334449318">
+    <state x="2338" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623335899404" />
+    <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2" timestamp="1623334472037">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="467" y="128" width="975" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623308065339" />
-    <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623334449318" />
-    <state width="1874" height="294" key="GridCell.Tab.0.bottom" timestamp="1623334078914">
+    <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623334472037" />
+    <state width="1874" height="294" key="GridCell.Tab.0.bottom" timestamp="1623335920036">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="356" key="GridCell.Tab.0.bottom/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623307577618" />
-    <state width="1874" height="294" key="GridCell.Tab.0.bottom/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623334078914" />
-    <state width="1874" height="294" key="GridCell.Tab.0.center" timestamp="1623334078914">
+    <state width="1874" height="294" key="GridCell.Tab.0.bottom/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623335920036" />
+    <state width="1874" height="294" key="GridCell.Tab.0.center" timestamp="1623335920036">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="356" key="GridCell.Tab.0.center/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623307577618" />
-    <state width="1874" height="294" key="GridCell.Tab.0.center/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623334078914" />
-    <state width="1874" height="294" key="GridCell.Tab.0.left" timestamp="1623334078913">
+    <state width="1874" height="294" key="GridCell.Tab.0.center/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623335920036" />
+    <state width="1874" height="294" key="GridCell.Tab.0.left" timestamp="1623335920036">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="356" key="GridCell.Tab.0.left/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623307577618" />
-    <state width="1874" height="294" key="GridCell.Tab.0.left/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623334078913" />
-    <state width="1874" height="294" key="GridCell.Tab.0.right" timestamp="1623334078914">
+    <state width="1874" height="294" key="GridCell.Tab.0.left/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623335920036" />
+    <state width="1874" height="294" key="GridCell.Tab.0.right" timestamp="1623335920036">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="356" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623307577618" />
-    <state width="1874" height="294" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623334078914" />
+    <state width="1874" height="294" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623335920036" />
     <state width="1874" height="304" key="GridCell.Tab.1.bottom" timestamp="1623333925925">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -400,11 +410,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="304" key="GridCell.Tab.1.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623333925925" />
-    <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1623334452277">
+    <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1623334473896">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623307778521" />
-    <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623334452277" />
+    <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623334473896" />
     <state x="616" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1623308080133">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
