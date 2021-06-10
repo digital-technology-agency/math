@@ -26,6 +26,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           goos: ${{ matrix.goos }}
           goarch: ${{ matrix.goarch }}
-          project_path: "./cmd/distr/"
+          project_path: "./cmd/distr"
           binary_name: "math"
+          extra_files: LICENSE README.md
+          release_tag: 1.0.0
 
