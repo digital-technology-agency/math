@@ -14,7 +14,7 @@
 
 Let there be **n** different objects. To find the number of combinations of **n** objects by **k**, we will choose combinations of **m** objects in all possible ways, while paying attention to the different composition of the combinations, but not the order (it is not important here, unlike the placements).
 
-###Factorial 
+### Factorial 
 
 ![Card information](./pic/factorial.svg)
 
