@@ -15,7 +15,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Build ${{ matrix.goos }}
+      - name: Build
         env:
           CGO_ENABLED: "0"
         run: go build -ldflags '-extldflags "-static"' -o dist/math cmd/distr/math.go
