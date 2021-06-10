@@ -20,7 +20,7 @@ jobs:
         env:
           CGO_ENABLED: "0"
           GOOS: ${{ matrix.goos }}
-      - run: go build -ldflags '-extldflags "-static"' -o dist/math-${{ matrix.goos }} cmd/distr/math.go
+        run: go build -ldflags '-extldflags "-static"' -o dist/math-${{ matrix.goos }} cmd/distr/math.go
 
       - name: Releaser ${{ matrix.goos }}
         uses: goreleaser/goreleaser-action@v2
