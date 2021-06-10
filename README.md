@@ -58,7 +58,7 @@ import "github.com/digital-technology-agency/math"
 
 func Example() {
     n := 4
-    value := math.Factorial(n)
+    value := math.FactorialInt(n)
 	fmt.Printf("Result: %d", value)
     /*
         Result: 24    

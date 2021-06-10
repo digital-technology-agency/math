@@ -14,23 +14,21 @@ func Int64(input string) int64 {
 
 func main() {
 	typeValue := flag.String(`t`, "", "cnk\nfactorial\n")
+	n := flag.String(`n`, "5", ``)
+	k := flag.String(`k`, "2", ``)
 	flag.Parse()
 	switch *typeValue {
 	default:
 		flag.PrintDefaults()
 		break
 	case `cnk`:
-		n := flag.String(`n`, "1000", ``)
-		k := flag.String(`k`, "2", ``)
-		flag.Parse()
 		log.Printf(`Params N=%s K=%s`, *n, *k)
 		log.Printf(`Uint64 [%d]`, math.CnkUint(Int64(*n), Int64(*k)))
 		log.Printf(`String [%s]`, math.CnkStr(Int64(*n), Int64(*k)))
 		break
 	case `factorial`:
-		n := flag.String(`n`, "4", ``)
-		flag.Parse()
 		log.Printf(`Params N=%s `, *n)
-		log.Printf(`Int64 [%v]`, math.Factorial(Int64(*n)))
+		log.Printf(`Int64 [%v]`, math.FactorialInt(Int64(*n)))
+		log.Printf(`String [%s]`, math.FactorialString(Int64(*n)))
 	}
 }
