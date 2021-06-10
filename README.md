@@ -27,6 +27,13 @@ The factorial operation is encountered in many areas of mathematics, notably in 
 Permutations differ from combinations, which are selections of some members of a set regardless of order. For example, written as tuples, there are six permutations of the set {1,2,3}, namely: (1,2,3), (1,3,2), (2,1,3), (2,3,1), (3,1,2), and (3,2,1). These are all the possible orderings of this three-element set. Anagrams of words whose letters are different are also permutations: the letters are already ordered in the original word, and the anagram is a reordering of the letters. The study of permutations of finite sets is an important topic in the fields of combinatorics and group theory.
 
 
+### Placements (n)
+
+![Card information](./pic/placements.jpg)
+
+If you are already familiar with combinations, then you will easily notice that in order to find placements, you need to take all possible combinations, and then change the order in each one in all possible ways (that is, in fact, make more **permutations**). Therefore, the number of placements is also expressed in terms of the number of permutations and combinations
+
+
 ### Issues
 [![GitHub issues](https://img.shields.io/github/issues/digital-technology-agency/math?color=0A0ECD)](https://github.com/digital-technology-agency/math/issues?q=is%3Aopen+is%3Aissue)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/digital-technology-agency/math?style=flat)](https://github.com/digital-technology-agency/math/issues?q=is%3Aissue+is%3Aclosed)
@@ -93,6 +100,23 @@ func Example() {
 	fmt.Printf("Result: %d", value)
     /*
         Result: 24    
+    */ 
+}
+```
+
+**Placements (A from n to k)**
+
+```go
+
+import "github.com/digital-technology-agency/math/pkg/combinatorics"
+
+func Example() {
+    n := 10
+    k := 10
+    value := combinatorics.PlacementInt(n,k)
+	fmt.Printf("Result: %d", value)
+    /*
+        Result: 3628800    
     */ 
 }
 ```
