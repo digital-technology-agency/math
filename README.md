@@ -15,6 +15,7 @@
 Let there be **n** different objects. To find the number of combinations of **n** objects by **k**, we will choose combinations of **m** objects in all possible ways, while paying attention to the different composition of the combinations, but not the order (it is not important here, unlike the placements).
 
 ###Factorial 
+
 ![Card information](./pic/factorial.svg)
 
 The factorial operation is encountered in many areas of mathematics, notably in combinatorics, algebra, and mathematical analysis. Its most basic use counts the possible distinct sequences – the permutations – of **n** distinct objects: there are **n!**.
