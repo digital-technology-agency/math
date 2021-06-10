@@ -1,6 +1,7 @@
 # Mathematical experiments
 
 # Intro
+[![Go](https://github.com/digital-technology-agency/math/actions/workflows/go.yml/badge.svg)](https://github.com/digital-technology-agency/math/actions/workflows/go.yml)
 [![License](http://img.shields.io/badge/Licence-MIT-brightgreen.svg)](LICENSE)
 [![Website dta.agency](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://dta.agency)
 [![GitHub release](https://img.shields.io/github/v/release/digital-technology-agency/math)](https://github.com/digital-technology-agency/math/releases/latest)
