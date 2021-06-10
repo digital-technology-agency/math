@@ -28,5 +28,4 @@ jobs:
           goarch: ${{ matrix.goarch }}
           project_path: "./cmd/distr/math.go"
           binary_name: "math"
-          build_flags: -ldflags '-extldflags "-static"'
 
