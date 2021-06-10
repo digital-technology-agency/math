@@ -33,6 +33,8 @@ go test -run ''
 
 ## Quickstart
 
+**C from n to k**
+
 ```go
 
 import "github.com/digital-technology-agency/math"
@@ -41,9 +43,25 @@ func Example() {
     n := 100
     k := 3
     value := math.CnkUint(n, k)
-	fmt.Printf("Result: %d\n", value)
+	fmt.Printf("Result: %d", value)
     /*
         Result: 161700    
+    */ 
+}
+```
+
+**Factorial (n!)**
+
+```go
+
+import "github.com/digital-technology-agency/math"
+
+func Example() {
+    n := 4
+    value := math.Factorial(n)
+	fmt.Printf("Result: %d", value)
+    /*
+        Result: 24    
     */ 
 }
 ```
@@ -67,7 +85,7 @@ func Example() {
  
 ![Card information](./pic/cli-5.png)
 
-* Run unzip binary file  **math**
+* Run unzip binary file  **math** and show list **types**
 
 ```bash
  ./math
