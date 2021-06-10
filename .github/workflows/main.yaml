@@ -7,7 +7,6 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        goos: [linux, darwin, windows]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Install Go
@@ -19,10 +18,9 @@ jobs:
       - name: Build ${{ matrix.goos }}
         env:
           CGO_ENABLED: "0"
-          GOOS: ${{ matrix.goos }}
-        run: go build -ldflags '-extldflags "-static"' -o dist/math-${{ matrix.goos }} cmd/distr/math.go
+        run: go build -ldflags '-extldflags "-static"' -o dist/math cmd/distr/math.go
 
-      - name: Releaser ${{ matrix.goos }}
+      - name: Releaser
         uses: goreleaser/goreleaser-action@v2
         with:
           version: latest
@@ -30,9 +28,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload ${{ matrix.goos }}
+      - name: Upload
         uses: actions/upload-artifact@v2
         with:
-          name: math-${{ matrix.goos }}
-          path: dist/math-${{ matrix.goos }}
+          name: math
+          path: dist/math
 
