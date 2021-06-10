@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b82e9dd-1613-4d61-85d3-defaa6d2a9fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/_workflows/main.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/go.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/go.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +160,7 @@
       <updated>1623304823646</updated>
       <workItem from="1623304825288" duration="3241000" />
       <workItem from="1623308078006" duration="9000" />
-      <workItem from="1623315758810" duration="3426000" />
+      <workItem from="1623315758810" duration="4214000" />
     </task>
     <task id="LOCAL-00001" summary="imnit">
       <created>1623307775155</created>
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623318833778</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="build">
+      <created>1623319186982</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623319186982</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,11 +242,11 @@
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
     <state x="555" y="197" width="800" height="684" key="#Go_Modules_(vgo)/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623304905471" />
-    <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2" timestamp="1623318833749">
+    <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2" timestamp="1623319978406">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="467" y="128" width="975" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623308065339" />
-    <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623318833749" />
+    <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623319978406" />
     <state width="1874" height="367" key="GridCell.Tab.0.bottom" timestamp="1623317221754">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -260,18 +267,18 @@
     </state>
     <state width="1874" height="356" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623307577618" />
     <state width="1874" height="367" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623317221754" />
-    <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1623318836108">
+    <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1623319188280">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623307778521" />
-    <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623318836108" />
+    <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623319188280" />
     <state x="616" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1623308080133">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
     <state x="616" y="363" key="com.intellij.ide.util.TipDialog/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623308080133" />
-    <state x="2648" y="442" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623315975820">
+    <state x="2648" y="442" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623319680508">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2648" y="442" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623315975820" />
+    <state x="2648" y="442" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623319680508" />
   </component>
 </project>
