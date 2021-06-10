@@ -36,7 +36,7 @@ Permutations differ from combinations, which are selections of some members of a
 ### [golang/cmd/go](https://golang.org/cmd/go/)
 
 ```bash
-go get github.com/digital-technology-agency/math
+go get github.com/digital-technology-agency/math/pkg/combinatorics
 ```
 
 ## Test
@@ -52,12 +52,12 @@ go test -run ''
 
 ```go
 
-import "github.com/digital-technology-agency/math"
+import "github.com/digital-technology-agency/math/pkg/combinatorics"
 
 func Example() {
     n := 100
     k := 3
-    value := math.CnkUint(n, k)
+    value := combinatorics.CnkUint(n, k)
 	fmt.Printf("Result: %d", value)
     /*
         Result: 161700    
@@ -69,11 +69,11 @@ func Example() {
 
 ```go
 
-import "github.com/digital-technology-agency/math"
+import "github.com/digital-technology-agency/math/pkg/combinatorics"
 
 func Example() {
     n := 4
-    value := math.FactorialInt(n)
+    value := combinatorics.FactorialInt(n)
 	fmt.Printf("Result: %d", value)
     /*
         Result: 24    
@@ -85,11 +85,11 @@ func Example() {
 
 ```go
 
-import "github.com/digital-technology-agency/math"
+import "github.com/digital-technology-agency/math/pkg/combinatorics"
 
 func Example() {
     n := 4
-    value := math.PermutationsInt(n)
+    value := combinatorics.PermutationsInt(n)
 	fmt.Printf("Result: %d", value)
     /*
         Result: 24    

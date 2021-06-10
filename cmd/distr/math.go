@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/digital-technology-agency/math"
+	"github.com/digital-technology-agency/math/pkg/combinatorics"
 	"log"
 	"strconv"
 )
@@ -23,16 +23,16 @@ func main() {
 		break
 	case `cnk`:
 		log.Printf(`Params N=%s K=%s`, *n, *k)
-		log.Printf(`Uint64 [%d]`, math.CnkUint(Int64(*n), Int64(*k)))
-		log.Printf(`String [%s]`, math.CnkStr(Int64(*n), Int64(*k)))
+		log.Printf(`Uint64 [%d]`, combinatorics.CnkUint(Int64(*n), Int64(*k)))
+		log.Printf(`String [%s]`, combinatorics.CnkStr(Int64(*n), Int64(*k)))
 		break
 	case `factorial`:
 		log.Printf(`Params N=%s `, *n)
-		log.Printf(`Int64 [%v]`, math.FactorialInt(Int64(*n)))
-		log.Printf(`String [%s]`, math.FactorialString(Int64(*n)))
+		log.Printf(`Int64 [%v]`, combinatorics.FactorialInt(Int64(*n)))
+		log.Printf(`String [%s]`, combinatorics.FactorialString(Int64(*n)))
 	case `permutations`:
 		log.Printf(`Params N=%s `, *n)
-		log.Printf(`Int64 [%v]`, math.PermutationsInt(Int64(*n)))
-		log.Printf(`String [%s]`, math.PermutationStr(Int64(*n)))
+		log.Printf(`Int64 [%v]`, combinatorics.PermutationsInt(Int64(*n)))
+		log.Printf(`String [%s]`, combinatorics.PermutationStr(Int64(*n)))
 	}
 }
