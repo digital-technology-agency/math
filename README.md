@@ -8,6 +8,8 @@
 [![Website dta.agency](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://dta.agency)
 [![GitHub release](https://img.shields.io/github/v/release/digital-technology-agency/math)](https://github.com/digital-technology-agency/math/releases/latest)
 
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=digitaltechnologyagency&show_icons=true&count_private=true" alt="Агентство цифровых технологий" width="80%"/></p>
+
 ## Menu
 `Sorted`
 * [Sort-insertion](https://github.com/digital-technology-agency/math/wiki/Sort-insertion)
