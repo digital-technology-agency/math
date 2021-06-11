@@ -1,7 +1,9 @@
 # Mathematical and algorithms experiments
 
 # Intro
+[![GoDoc](https://godoc.org/github.com/digital-technology-agency/math?status.svg)](https://godoc.org/github.com/digital-technology-agency/math)
 [![Go](https://github.com/digital-technology-agency/math/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/digital-technology-agency/math/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/digital-technology-agency/math)](https://goreportcard.com/report/github.com/digital-technology-agency/math)
 [![License](http://img.shields.io/badge/Licence-MIT-brightgreen.svg)](LICENSE)
 [![Website dta.agency](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://dta.agency)
 [![GitHub release](https://img.shields.io/github/v/release/digital-technology-agency/math)](https://github.com/digital-technology-agency/math/releases/latest)
