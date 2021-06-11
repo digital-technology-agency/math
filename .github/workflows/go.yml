@@ -30,5 +30,6 @@ jobs:
           goarch: ${{ matrix.goarch }}
           project_path: "./cmd/distr"
           binary_name: "math"
-          overwrite: TRUE
+          release_tag: dev
+          overwrite: true
 
