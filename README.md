@@ -1,4 +1,6 @@
-# Mathematical and algorithms experiments
+# Mathematical and algorithms experiments 
+
+<p><img src="https://rawcdn.githack.com/devicons/devicon/9c6bfdb9783cdfe1018666ed76adcfd3eab6fad6/icons/go/go-original.svg" alt="go" width="100" height="100"/></p>
 
 # Intro
 [![GoDoc](https://godoc.org/github.com/digital-technology-agency/math?status.svg)](https://godoc.org/github.com/digital-technology-agency/math)
@@ -7,6 +9,7 @@
 [![License](http://img.shields.io/badge/Licence-MIT-brightgreen.svg)](LICENSE)
 [![Website dta.agency](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://dta.agency)
 [![GitHub release](https://img.shields.io/github/v/release/digital-technology-agency/math)](https://github.com/digital-technology-agency/math/releases/latest)
+
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=digitaltechnologyagency&show_icons=true&count_private=true" alt="Агентство цифровых технологий" width="80%"/></p>
 
