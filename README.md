@@ -15,7 +15,8 @@
 
 ## Menu
 `Sorted`
-* [Sort-insertion](https://github.com/digital-technology-agency/math/wiki/Sort-insertion)
+* [Sort insertion](https://github.com/digital-technology-agency/math/wiki/Sort-insertion)
+* [Merge sort](https://github.com/digital-technology-agency/math/wiki/Merge-sort)
 
 `Mathematical`
 
@@ -23,6 +24,7 @@
 * [Factorial](https://github.com/digital-technology-agency/math/wiki/Factorial)
 * [Permutation](https://github.com/digital-technology-agency/math/wiki/Permutation)
 * [Placements](https://github.com/digital-technology-agency/math/wiki/Placements)
+
 
 ## Examples
 
