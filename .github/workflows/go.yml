@@ -5,6 +5,8 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  release:
+    types: [created]
 
 
 jobs:
@@ -28,6 +30,5 @@ jobs:
           goarch: ${{ matrix.goarch }}
           project_path: "./cmd/distr"
           binary_name: "math"
-          release_tag: 1.0.1
           overwrite: TRUE
 
