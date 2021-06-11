@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b82e9dd-1613-4d61-85d3-defaa6d2a9fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/go.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/go.yml" afterDir="false" />
+    <list default="true" id="7b82e9dd-1613-4d61-85d3-defaa6d2a9fc" name="Default Changelist" comment="factorial">
+      <change afterPath="$PROJECT_DIR$/pkg/sort/sort-by-insertion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/sort/sort-by-insertion_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +105,7 @@
       <recent name="$PROJECT_DIR$/cmd/distr" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestInsertion in github.com/digital-technology-agency/math/pkg/sort">
     <configuration name="go build github.com/digital-technology-agency/math/cmd/distr" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="math" />
       <working_directory value="$PROJECT_DIR$" />
@@ -114,8 +116,20 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestInsertion in github.com/digital-technology-agency/math/pkg/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="math" />
+      <working_directory value="$PROJECT_DIR$/pkg/sort" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/digital-technology-agency/math/pkg/sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestInsertion$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestInsertion in github.com/digital-technology-agency/math/pkg/sort" />
         <item itemvalue="Go Build.go build github.com/digital-technology-agency/math/cmd/distr" />
       </list>
     </recent_temporary>
@@ -147,7 +161,9 @@
       <workItem from="1623315758810" duration="10364000" />
       <workItem from="1623330511754" duration="3346000" />
       <workItem from="1623333863438" duration="3332000" />
-      <workItem from="1623346306175" duration="2237000" />
+      <workItem from="1623346306175" duration="3726000" />
+      <workItem from="1623393428205" duration="1449000" />
+      <workItem from="1623395739979" duration="3377000" />
     </task>
     <task id="LOCAL-00001" summary="imnit">
       <created>1623307775155</created>
@@ -324,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623348103927</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="factorial">
+      <created>1623348547340</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1623348547340</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,57 +377,57 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2338" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623348070162" />
-    <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2" timestamp="1623348103889">
+    <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2" timestamp="1623350684256">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="467" y="128" width="975" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623308065339" />
-    <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623348103889" />
-    <state width="1874" height="294" key="GridCell.Tab.0.bottom" timestamp="1623348079460">
+    <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623350684256" />
+    <state width="1874" height="300" key="GridCell.Tab.0.bottom" timestamp="1623398745600">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="356" key="GridCell.Tab.0.bottom/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623307577618" />
-    <state width="1874" height="294" key="GridCell.Tab.0.bottom/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623348079460" />
-    <state width="1874" height="294" key="GridCell.Tab.0.center" timestamp="1623348079459">
+    <state width="1874" height="300" key="GridCell.Tab.0.bottom/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623398745600" />
+    <state width="1874" height="300" key="GridCell.Tab.0.center" timestamp="1623398745599">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="356" key="GridCell.Tab.0.center/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623307577618" />
-    <state width="1874" height="294" key="GridCell.Tab.0.center/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623348079459" />
-    <state width="1874" height="294" key="GridCell.Tab.0.left" timestamp="1623348079459">
+    <state width="1874" height="300" key="GridCell.Tab.0.center/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623398745599" />
+    <state width="1874" height="300" key="GridCell.Tab.0.left" timestamp="1623398745599">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="356" key="GridCell.Tab.0.left/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623307577618" />
-    <state width="1874" height="294" key="GridCell.Tab.0.left/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623348079459" />
-    <state width="1874" height="294" key="GridCell.Tab.0.right" timestamp="1623348079459">
+    <state width="1874" height="300" key="GridCell.Tab.0.left/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623398745599" />
+    <state width="1874" height="300" key="GridCell.Tab.0.right" timestamp="1623398745599">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="356" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623307577618" />
-    <state width="1874" height="294" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623348079459" />
-    <state width="1874" height="377" key="GridCell.Tab.1.bottom" timestamp="1623347921639">
+    <state width="1874" height="300" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623398745599" />
+    <state width="1874" height="336" key="GridCell.Tab.1.bottom" timestamp="1623398737517">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="377" key="GridCell.Tab.1.bottom/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623347921639" />
-    <state width="1874" height="377" key="GridCell.Tab.1.center" timestamp="1623347921639">
+    <state width="1874" height="336" key="GridCell.Tab.1.bottom/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623398737517" />
+    <state width="1874" height="336" key="GridCell.Tab.1.center" timestamp="1623398737517">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="377" key="GridCell.Tab.1.center/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623347921639" />
-    <state width="1874" height="377" key="GridCell.Tab.1.left" timestamp="1623347921639">
+    <state width="1874" height="336" key="GridCell.Tab.1.center/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623398737517" />
+    <state width="1874" height="336" key="GridCell.Tab.1.left" timestamp="1623398737517">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="377" key="GridCell.Tab.1.left/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623347921639" />
-    <state width="1874" height="377" key="GridCell.Tab.1.right" timestamp="1623347921639">
+    <state width="1874" height="336" key="GridCell.Tab.1.left/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623398737517" />
+    <state width="1874" height="336" key="GridCell.Tab.1.right" timestamp="1623398737517">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="377" key="GridCell.Tab.1.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623347921639" />
-    <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1623348105686">
+    <state width="1874" height="336" key="GridCell.Tab.1.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623398737517" />
+    <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1623348549882">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623307778521" />
-    <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623348105686" />
-    <state x="2536" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1623346309105">
+    <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623348549882" />
+    <state x="2536" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1623393428074">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="616" y="363" key="com.intellij.ide.util.TipDialog/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623308080133" />
-    <state x="2536" y="357" key="com.intellij.ide.util.TipDialog/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623346309105" />
+    <state x="2536" y="357" key="com.intellij.ide.util.TipDialog/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623393428074" />
     <state x="2648" y="442" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623319680508">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

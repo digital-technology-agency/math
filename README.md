@@ -1,4 +1,4 @@
-# Mathematical experiments
+# Mathematical and algorithms experiments
 
 # Intro
 [![Go](https://github.com/digital-technology-agency/math/actions/workflows/go.yml/badge.svg)](https://github.com/digital-technology-agency/math/actions/workflows/go.yml)
@@ -6,7 +6,18 @@
 [![Website dta.agency](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://dta.agency)
 [![GitHub release](https://img.shields.io/github/v/release/digital-technology-agency/math)](https://github.com/digital-technology-agency/math/releases/latest)
 
----
+## Menu
+`Sorted`
+* [Sort-insertion](https://github.com/digital-technology-agency/math/wiki/Sort-insertion)
+
+`Mathematical`
+
+* [C from n to k](https://github.com/digital-technology-agency/math/wiki/C-from-n-to-k)
+* [Factorial](https://github.com/digital-technology-agency/math/wiki/Factorial)
+* [Permutation](https://github.com/digital-technology-agency/math/wiki/Permutation)
+* [Placements](https://github.com/digital-technology-agency/math/wiki/Placements)
+
+## Examples
 
 ### C from n to k
 
