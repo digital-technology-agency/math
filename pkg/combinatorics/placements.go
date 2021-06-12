@@ -10,12 +10,12 @@ func Placement(n, k int64) *big.Int {
 	return down.Mul(&cnk, &permutations)
 }
 
-/*Permutations int64*/
+/*PlacementInt int64*/
 func PlacementInt(n, k int64) int64 {
 	return Placement(n, k).Int64()
 }
 
-/*Permutations string*/
+/*PlacementStr string*/
 func PlacementStr(n, k int64) string {
 	return Placement(n, k).String()
 }

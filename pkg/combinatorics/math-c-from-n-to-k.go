@@ -17,13 +17,13 @@ func Cnk(n, k int64) big.Int {
 	return *big.NewInt(0)
 }
 
-/*Cnk uint64*/
+/*CnkUint uint64*/
 func CnkUint(n, k int64) uint64 {
 	cBig := Cnk(n, k)
 	return cBig.Uint64()
 }
 
-/*Cnk string*/
+/*CnkStr string*/
 func CnkStr(n, k int64) string {
 	cBig := Cnk(n, k)
 	return cBig.String()

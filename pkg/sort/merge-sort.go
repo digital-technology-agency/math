@@ -1,6 +1,6 @@
 package sort
 
-/*Permutations []int*/
+/*Merge []int*/
 func Merge(input []int) []int {
 	length := len(input)
 	if length < 2 {
