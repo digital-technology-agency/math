@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7b82e9dd-1613-4d61-85d3-defaa6d2a9fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/combinatorics/placements.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/combinatorics/placements.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/combinatorics/factorial_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/combinatorics/factorial_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/combinatorics/math-c-from-n-to-k_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/combinatorics/math-c-from-n-to-k_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +105,7 @@
       <recent name="$PROJECT_DIR$/cmd/distr" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestInsertion in github.com/digital-technology-agency/math/pkg/sort">
+  <component name="RunManager" selected="Go Test.TestFactorial in github.com/digital-technology-agency/math/pkg/combinatorics">
     <configuration name="go build github.com/digital-technology-agency/math/cmd/distr" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="math" />
       <working_directory value="$PROJECT_DIR$" />
@@ -112,6 +114,28 @@
       <filePath value="$PROJECT_DIR$/cmd/distr/math.go" />
       <package value="github.com/digital-technology-agency/math/cmd/distr" />
       <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCnk in github.com/digital-technology-agency/math/pkg/combinatorics" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="math" />
+      <working_directory value="$PROJECT_DIR$/pkg/combinatorics" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/digital-technology-agency/math/pkg/combinatorics" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestCnk$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFactorial in github.com/digital-technology-agency/math/pkg/combinatorics" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="math" />
+      <working_directory value="$PROJECT_DIR$/pkg/combinatorics" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/digital-technology-agency/math/pkg/combinatorics" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestFactorial$" />
       <method v="2" />
     </configuration>
     <configuration name="TestInsertion in github.com/digital-technology-agency/math/pkg/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -138,6 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestFactorial in github.com/digital-technology-agency/math/pkg/combinatorics" />
+        <item itemvalue="Go Test.TestCnk in github.com/digital-technology-agency/math/pkg/combinatorics" />
         <item itemvalue="Go Test.TestInsertion in github.com/digital-technology-agency/math/pkg/sort" />
         <item itemvalue="Go Test.TestMerge in github.com/digital-technology-agency/math/pkg/sort" />
         <item itemvalue="Go Build.go build github.com/digital-technology-agency/math/cmd/distr" />
@@ -181,7 +207,8 @@
       <workItem from="1623480171530" duration="505000" />
       <workItem from="1623480908338" duration="815000" />
       <workItem from="1623481885887" duration="201000" />
-      <workItem from="1623482235308" duration="140000" />
+      <workItem from="1623482235308" duration="203000" />
+      <workItem from="1623482767701" duration="843000" />
     </task>
     <task id="LOCAL-00001" summary="imnit">
       <created>1623307775155</created>
@@ -484,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623482340545</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="lint style">
+      <created>1623482389462</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1623482389462</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +530,8 @@
     <MESSAGE value="build" />
     <MESSAGE value="actions" />
     <MESSAGE value="factorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="factorial" />
+    <MESSAGE value="lint style" />
+    <option name="LAST_COMMIT_MESSAGE" value="lint style" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -514,60 +549,60 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2338" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623348070162" />
-    <state x="467" y="128" width="967" height="822" key="CommitChangelistDialog2" timestamp="1623482340477">
+    <state x="467" y="128" width="967" height="822" key="CommitChangelistDialog2" timestamp="1623482389416">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state x="467" y="128" width="975" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623482340477" />
+    <state x="467" y="128" width="975" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623482389416" />
     <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623435751554" />
-    <state width="1874" height="325" key="GridCell.Tab.0.bottom" timestamp="1623438965809">
+    <state width="1874" height="325" key="GridCell.Tab.0.bottom" timestamp="1623483716058">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state width="1874" height="325" key="GridCell.Tab.0.bottom/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623438965809" />
+    <state width="1874" height="325" key="GridCell.Tab.0.bottom/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623483716058" />
     <state width="1874" height="336" key="GridCell.Tab.0.bottom/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535127" />
-    <state width="1874" height="325" key="GridCell.Tab.0.center" timestamp="1623438965809">
+    <state width="1874" height="325" key="GridCell.Tab.0.center" timestamp="1623483716058">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state width="1874" height="325" key="GridCell.Tab.0.center/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623438965809" />
+    <state width="1874" height="325" key="GridCell.Tab.0.center/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623483716058" />
     <state width="1874" height="336" key="GridCell.Tab.0.center/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535127" />
-    <state width="1874" height="325" key="GridCell.Tab.0.left" timestamp="1623438965809">
+    <state width="1874" height="325" key="GridCell.Tab.0.left" timestamp="1623483716058">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state width="1874" height="325" key="GridCell.Tab.0.left/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623438965809" />
+    <state width="1874" height="325" key="GridCell.Tab.0.left/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623483716058" />
     <state width="1874" height="336" key="GridCell.Tab.0.left/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535127" />
-    <state width="1874" height="325" key="GridCell.Tab.0.right" timestamp="1623438965809">
+    <state width="1874" height="325" key="GridCell.Tab.0.right" timestamp="1623483716058">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state width="1874" height="325" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623438965809" />
+    <state width="1874" height="325" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623483716058" />
     <state width="1874" height="336" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535127" />
-    <state width="1874" height="325" key="GridCell.Tab.1.bottom" timestamp="1623438965808">
+    <state width="1874" height="325" key="GridCell.Tab.1.bottom" timestamp="1623483716058">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state width="1874" height="325" key="GridCell.Tab.1.bottom/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623438965808" />
+    <state width="1874" height="325" key="GridCell.Tab.1.bottom/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623483716058" />
     <state width="1874" height="336" key="GridCell.Tab.1.bottom/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535127" />
-    <state width="1874" height="325" key="GridCell.Tab.1.center" timestamp="1623438965808">
+    <state width="1874" height="325" key="GridCell.Tab.1.center" timestamp="1623483716058">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state width="1874" height="325" key="GridCell.Tab.1.center/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623438965808" />
+    <state width="1874" height="325" key="GridCell.Tab.1.center/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623483716058" />
     <state width="1874" height="336" key="GridCell.Tab.1.center/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535126" />
-    <state width="1874" height="325" key="GridCell.Tab.1.left" timestamp="1623438965808">
+    <state width="1874" height="325" key="GridCell.Tab.1.left" timestamp="1623483716057">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state width="1874" height="325" key="GridCell.Tab.1.left/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623438965808" />
+    <state width="1874" height="325" key="GridCell.Tab.1.left/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623483716057" />
     <state width="1874" height="336" key="GridCell.Tab.1.left/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535126" />
-    <state width="1874" height="325" key="GridCell.Tab.1.right" timestamp="1623438965808">
+    <state width="1874" height="325" key="GridCell.Tab.1.right" timestamp="1623483716058">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state width="1874" height="325" key="GridCell.Tab.1.right/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623438965808" />
+    <state width="1874" height="325" key="GridCell.Tab.1.right/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623483716058" />
     <state width="1874" height="336" key="GridCell.Tab.1.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535127" />
-    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1623482342167">
+    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1623482390959">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623482342167" />
+    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623482390959" />
     <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623435753293" />
-    <state x="616" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1623482235061">
+    <state x="616" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1623482768239">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state x="616" y="363" key="com.intellij.ide.util.TipDialog/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623482235061" />
+    <state x="616" y="363" key="com.intellij.ide.util.TipDialog/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623482768239" />
     <state x="2536" y="357" key="com.intellij.ide.util.TipDialog/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623393428074" />
     <state x="2648" y="442" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623405372701">
       <screen x="1920" y="0" width="1920" height="1080" />

@@ -19,10 +19,10 @@ func TestCnk(t *testing.T) {
 		{
 			name: `Big int N=100 K=10`,
 			args: args{
-				n: 100,
-				k: 10,
+				n: 1000000,
+				k: 3,
 			},
-			want: *big.NewInt(17310309456440),
+			want: *big.NewInt(161700),
 		},
 	}
 	for _, tt := range tests {

@@ -93,6 +93,16 @@ func Example() {
 }
 ```
 
+## Performance
+
+If you don't need an ordered list of, *Process*'s would be the best choice for large n.
+
+  N |        n  |        k  |  Process 
+---:|----------:|----------:|---------:
+  1 |       100 |         3 |   0.00s 
+  2 |    100000 |         3 |   0.09s 
+  3 |   1000000 |         3 |   3.52s 
+
 **Factorial (n!)**
 
 ```go
@@ -108,6 +118,14 @@ func Example() {
     */ 
 }
 ```
+
+If you don't need an ordered list of factorial, *Process*'s would be the best choice for large n.
+
+  N |        n! | Process 
+---:|----------:|--------:
+  1 |        10 |  0.00s 
+  2 |    100000 |  0.16s 
+  3 |   1000000 |  1.76s  
 
 **Permutations (n)**
 
