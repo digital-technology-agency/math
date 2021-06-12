@@ -2,6 +2,7 @@ package combinatorics
 
 import "math/big"
 
+/*Permutations big.Int*/
 func Placement(n, k int64) *big.Int {
 	cnk := Cnk(n, k)
 	permutations := Permutations(k)
@@ -9,10 +10,12 @@ func Placement(n, k int64) *big.Int {
 	return down.Mul(&cnk, &permutations)
 }
 
+/*Permutations int64*/
 func PlacementInt(n, k int64) int64 {
 	return Placement(n, k).Int64()
 }
 
+/*Permutations string*/
 func PlacementStr(n, k int64) string {
 	return Placement(n, k).String()
 }

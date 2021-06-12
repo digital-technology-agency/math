@@ -2,12 +2,7 @@ package combinatorics
 
 import "math/big"
 
-/*
-c from n to k
-n int64
-k int64
-return *big.Int
-*/
+/*Cnk big.Int*/
 func Cnk(n, k int64) big.Int {
 	if k >= 0 && n >= k {
 		var nn, kkl, kkr, down, total big.Int
@@ -22,23 +17,13 @@ func Cnk(n, k int64) big.Int {
 	return *big.NewInt(0)
 }
 
-/*
-c from n to k
-n int64
-k int64
-return uint64
-*/
+/*Cnk uint64*/
 func CnkUint(n, k int64) uint64 {
 	cBig := Cnk(n, k)
 	return cBig.Uint64()
 }
 
-/*
-c from n to k
-n int64
-k int64
-return string
-*/
+/*Cnk string*/
 func CnkStr(n, k int64) string {
 	cBig := Cnk(n, k)
 	return cBig.String()

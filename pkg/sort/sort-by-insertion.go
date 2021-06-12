@@ -1,5 +1,6 @@
 package sort
 
+/*Insertion []int*/
 func Insertion(input []int) []int {
 	for j := 1; j < len(input); j++ {
 		key := input[j]

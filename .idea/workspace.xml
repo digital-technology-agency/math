@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b82e9dd-1613-4d61-85d3-defaa6d2a9fc" name="Default Changelist" comment="">
+    <list default="true" id="7b82e9dd-1613-4d61-85d3-defaa6d2a9fc" name="Default Changelist" comment="factorial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/combinatorics/factorial.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/combinatorics/factorial.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/combinatorics/math-c-from-n-to-k.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/combinatorics/math-c-from-n-to-k.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/combinatorics/permutations.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/combinatorics/permutations.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/combinatorics/placements.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/combinatorics/placements.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/sort/merge-sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/sort/merge-sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/sort/sort-by-insertion.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/sort/sort-by-insertion.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +184,8 @@
       <workItem from="1623434552417" duration="4413000" />
       <workItem from="1623439122821" duration="65000" />
       <workItem from="1623480171530" duration="505000" />
-      <workItem from="1623480908338" duration="639000" />
+      <workItem from="1623480908338" duration="815000" />
+      <workItem from="1623481885887" duration="171000" />
     </task>
     <task id="LOCAL-00001" summary="imnit">
       <created>1623307775155</created>
@@ -453,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623481431433</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="factorial">
+      <created>1623481616782</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1623481616782</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,10 +497,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2338" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623348070162" />
-    <state x="467" y="128" width="967" height="822" key="CommitChangelistDialog2" timestamp="1623481431379">
+    <state x="467" y="128" width="967" height="822" key="CommitChangelistDialog2" timestamp="1623482012197">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state x="467" y="128" width="975" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623481431379" />
+    <state x="467" y="128" width="975" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623482012197" />
     <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623435751554" />
     <state width="1874" height="325" key="GridCell.Tab.0.bottom" timestamp="1623438965809">
       <screen x="0" y="27" width="1920" height="1017" />
@@ -528,15 +542,15 @@
     </state>
     <state width="1874" height="325" key="GridCell.Tab.1.right/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623438965808" />
     <state width="1874" height="336" key="GridCell.Tab.1.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535127" />
-    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1623481433514">
+    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1623481618963">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623481433514" />
+    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623481618963" />
     <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623435753293" />
-    <state x="616" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1623480908332">
+    <state x="616" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1623481885916">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state x="616" y="363" key="com.intellij.ide.util.TipDialog/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623480908332" />
+    <state x="616" y="363" key="com.intellij.ide.util.TipDialog/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623481885916" />
     <state x="2536" y="357" key="com.intellij.ide.util.TipDialog/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623393428074" />
     <state x="2648" y="442" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623405372701">
       <screen x="1920" y="0" width="1920" height="1080" />
