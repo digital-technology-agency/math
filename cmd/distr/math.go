@@ -7,6 +7,7 @@ import (
 	"strconv"
 )
 
+/*Int64 convert string to int64*/
 func Int64(input string) int64 {
 	result, _ := strconv.ParseInt(input, 10, 64)
 	return result
