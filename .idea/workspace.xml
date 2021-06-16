@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b82e9dd-1613-4d61-85d3-defaa6d2a9fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pkg/utils/slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/utils/slice_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/combinatorics/factorial.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/combinatorics/factorial.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,18 +104,7 @@
       <recent name="$PROJECT_DIR$/cmd/distr" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestFactorialTree in github.com/digital-technology-agency/math/pkg/combinatorics">
-    <configuration name="TestCnk in github.com/digital-technology-agency/math/pkg/combinatorics" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="math" />
-      <working_directory value="$PROJECT_DIR$/pkg/combinatorics" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/digital-technology-agency/math/pkg/combinatorics" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestCnk$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestSliceToChunk in github.com/digital-technology-agency/math/pkg/utils">
     <configuration name="TestFactorial in github.com/digital-technology-agency/math/pkg/combinatorics" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="math" />
       <working_directory value="$PROJECT_DIR$/pkg/combinatorics" />
@@ -159,13 +149,24 @@
       <pattern value="^TestFactorialTreeString$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestSliceToChunk in github.com/digital-technology-agency/math/pkg/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="math" />
+      <working_directory value="$PROJECT_DIR$/pkg/utils" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/digital-technology-agency/math/pkg/utils" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestSliceToChunk$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSliceToChunk in github.com/digital-technology-agency/math/pkg/utils" />
         <item itemvalue="Go Test.TestFactorialTree in github.com/digital-technology-agency/math/pkg/combinatorics" />
         <item itemvalue="Go Test.TestFactorialTreeString in github.com/digital-technology-agency/math/pkg/combinatorics" />
         <item itemvalue="Go Test.TestFactorialParallelsUint in github.com/digital-technology-agency/math/pkg/combinatorics" />
         <item itemvalue="Go Test.TestFactorial in github.com/digital-technology-agency/math/pkg/combinatorics" />
-        <item itemvalue="Go Test.TestCnk in github.com/digital-technology-agency/math/pkg/combinatorics" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +212,8 @@
       <workItem from="1623509611189" duration="127000" />
       <workItem from="1623757181888" duration="1694000" />
       <workItem from="1623758915648" duration="112000" />
-      <workItem from="1623830456844" duration="95000" />
+      <workItem from="1623830456844" duration="123000" />
+      <workItem from="1623830680450" duration="406000" />
     </task>
     <task id="LOCAL-00001" summary="imnit">
       <created>1623307775155</created>
@@ -535,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623758784305</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="add method factorial with tree">
+      <created>1623830567127</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1623830567127</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,31 +576,31 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2338" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623348070162" />
-    <state x="467" y="128" width="967" height="822" key="CommitChangelistDialog2" timestamp="1623758784262">
+    <state x="467" y="128" width="967" height="822" key="CommitChangelistDialog2" timestamp="1623830567059">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state x="467" y="128" width="975" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623758784262" />
+    <state x="467" y="128" width="975" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623830567059" />
     <state x="2387" y="107" width="967" height="822" key="CommitChangelistDialog2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623435751554" />
-    <state width="1874" height="248" key="GridCell.Tab.0.bottom" timestamp="1623758788673">
-      <screen x="0" y="27" width="1920" height="1017" />
+    <state width="1874" height="427" key="GridCell.Tab.0.bottom" timestamp="1623830876543">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="248" key="GridCell.Tab.0.bottom/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623758788673" />
-    <state width="1874" height="336" key="GridCell.Tab.0.bottom/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535127" />
-    <state width="1874" height="248" key="GridCell.Tab.0.center" timestamp="1623758788673">
-      <screen x="0" y="27" width="1920" height="1017" />
+    <state width="1874" height="427" key="GridCell.Tab.0.bottom/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623830876543" />
+    <state width="1874" height="427" key="GridCell.Tab.0.center" timestamp="1623830876542">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="248" key="GridCell.Tab.0.center/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623758788673" />
-    <state width="1874" height="336" key="GridCell.Tab.0.center/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535127" />
-    <state width="1874" height="248" key="GridCell.Tab.0.left" timestamp="1623758788673">
-      <screen x="0" y="27" width="1920" height="1017" />
+    <state width="1874" height="427" key="GridCell.Tab.0.center/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623830876542" />
+    <state width="1874" height="427" key="GridCell.Tab.0.left" timestamp="1623830876542">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="248" key="GridCell.Tab.0.left/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623758788673" />
-    <state width="1874" height="336" key="GridCell.Tab.0.left/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535127" />
-    <state width="1874" height="248" key="GridCell.Tab.0.right" timestamp="1623758788673">
-      <screen x="0" y="27" width="1920" height="1017" />
+    <state width="1874" height="427" key="GridCell.Tab.0.left/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623830876542" />
+    <state width="1874" height="427" key="GridCell.Tab.0.right" timestamp="1623830876543">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="248" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623758788673" />
-    <state width="1874" height="336" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535127" />
+    <state width="1874" height="427" key="GridCell.Tab.0.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623830876543" />
     <state width="1874" height="325" key="GridCell.Tab.1.bottom" timestamp="1623484806692">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
@@ -612,10 +621,10 @@
     </state>
     <state width="1874" height="325" key="GridCell.Tab.1.right/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623484806691" />
     <state width="1874" height="336" key="GridCell.Tab.1.right/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623401535127" />
-    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1623758786776">
+    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1623830574660">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623758786776" />
+    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@0.27.1920.1017" timestamp="1623830574660" />
     <state x="2475" y="259" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623435753293" />
     <state x="616" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1623509611607">
       <screen x="0" y="27" width="1920" height="1017" />

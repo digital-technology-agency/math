@@ -32,7 +32,7 @@ func FactorialTree(n int64) *big.Int {
 	return factorialTreeExecute(big.NewInt(2), big.NewInt(n))
 }
 
-/*FactorialTree string*/
+/*FactorialTreeString string*/
 func FactorialTreeString(n int64) string {
 	return FactorialTree(n).String()
 
